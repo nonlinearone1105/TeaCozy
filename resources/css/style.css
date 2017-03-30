@@ -1,0 +1,133 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  /*opacity: 0.9;*/
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 20;
+  background-color: black;
+  top: 0px;
+}
+
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 62px;
+  flex-direction: column;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+  width: 1200px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.mission-text h4 {
+  margin: 20px 0px 10px 0px;
+}
+
+.month {
+  width: 1000px;
+  margin: 80px 0px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px;
+}
+
+.teas span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 575px;
+  width: 1200px;
+}
+
+.locations h2 {
+  background: none;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+#title {
+  background: none;
+  margin-bottom: 15px;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+  background: none;
+}
+
+.location {
+  margin: 0px 40px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.location span {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.location h3 {
+  margin-bottom: 40px;
+}
+
+.contact {
+  margin-top: 75px;
+}
